@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.navbar,.navbar-brand{
+    cursor: pointer;
+    background-color: rgb(58 79 39);
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color:white !important;
+}
+.nav-item,.nav-link{
+    padding:10px 10px 10px 10px;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white !important;
+}
+.nav-link:hover{
+    color: yellow !important;
+    transition: all 0.5s;
+}
+.nav-link:active{
+    color: yellow !important;
+}
+.btn{
+    background-color: white !important;
+}
+.btn:hover{
+    background-color: green !important;
+}
+.btn1{
+    margin: 30px;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+.c-img{
+    margin-top: 30px;
+}
+.txt{
+    margin: 60px 0 60px 0;
+    font-size: 50px;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: rgb(58 78 39);
+}
+
+#txt,#txt1{
+   margin-bottom: 80px;
+   font-size: 20px;
+   line-height: 35px;
+}
+.c-title{
+    color: rgb(58 78 39) !important;
+}
+.c-text{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+.c-img3{
+    height: 400px;
+    object-fit: cover;
+}
+.con{
+    margin:80px 0 80px 0;
+}
+.text{
+    font-size: 20px;
+}
+.c-body{
+    background-color: rgb(58 78 39) !important;
+    color: white !important;
+}
+.ngek{
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+}
+.section3{
+    background-color:rgb(128 128 128 );
+    padding: 30px 30px 30px 30px;
+    color: white !important;
+}
+.section4{
+    padding: 20px 20px 20px 20px;
+    background-color: black;
+    color: white;
+}
+.kk{
+    margin-top: 100px;
+}
+#image-item{
+    height: 90vh;
+    width: 100vw;
+}
+.image-img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
